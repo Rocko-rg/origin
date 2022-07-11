@@ -1,0 +1,17 @@
+.humbnav{
+    width: 280px;
+    height: 100%;
+    margin-left: -330px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    transition: 0.5s;
+    
+}
+.hn{
+    width: 100%;
+    height: 1000px;
+    background-color: #1e262c;
+    position: absolute;   
+}

@@ -1,0 +1,17 @@
+#chk{
+    display: none;
+}
+@media screen and (max-width: 999px){
+
+    #chk:checked  ~ .humbnav{
+        margin-left: -20px;
+        transition: 0.5s;
+    }
+    #chk:checked  ~ .ii{
+        opacity: 0.5;
+    }
+    #chk:checked  ~ .topnavlogo{
+        opacity: 0.5;
+    }
+
+}
